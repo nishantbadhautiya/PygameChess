@@ -20,6 +20,7 @@ class Main:
                     sys.exit() 
 
             game.show_bg(screen) 
+            game.show_pieces(screen)
             pygame.display.update() 
 
 main = Main() 
